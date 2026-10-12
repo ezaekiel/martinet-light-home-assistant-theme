@@ -1,3 +1,4 @@
+# Version: 1.0.0
 Martinet Light:
   # Dashboard palette aliases, matching Martinet Dark with light surfaces
   martinet-dashboard-background: 'linear-gradient(180deg, #edf3f6 0%, #fafdff 48%, #e5eff4 100%)'
