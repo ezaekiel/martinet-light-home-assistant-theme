@@ -27,4 +27,4 @@ Edit the color values in `martinet_light.yaml`, then reload themes. Custom cards
 
 ## License
 
-No reuse license has been specified for this repository yet.
+This project is licensed under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0). It permits use, modification, and redistribution for noncommercial purposes only. See `LICENSE` for the full terms.
