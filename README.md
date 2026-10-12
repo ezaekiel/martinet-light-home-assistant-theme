@@ -1,30 +1,30 @@
 # Martinet Light
 
-Thème clair pour Home Assistant, inspiré de la palette Martinet Dark. Il reprend ses couleurs sémantiques et ses variables de surface dans une palette claire.
+A light theme for Home Assistant, inspired by the Martinet Dark palette. It carries over its semantic colors and surface variables in a light palette.
 
-## Contenu
+## Contents
 
-- `martinet_light.yaml` : définition du thème **Martinet Light**.
+- `martinet_light.yaml`: the **Martinet Light** theme definition.
 
-Le fichier définit les couleurs Home Assistant et les variables `martinet-*` utilisées par les cartes Martinet compatibles. Il ne modifie pas les tableaux de bord. Une carte qui fixe ses couleurs directement dans son YAML ou son CSS ne changera pas automatiquement avec le thème.
+The file defines Home Assistant colors and the `martinet-*` variables used by compatible Martinet cards. It does not modify dashboards. A card with colors hard-coded in its YAML or CSS will not automatically change with the theme.
 
 ## Installation
 
-1. Copiez `martinet_light.yaml` dans le dossier `themes/` de votre configuration Home Assistant.
-2. Vérifiez que les thèmes sont chargés dans `configuration.yaml` :
+1. Copy `martinet_light.yaml` into the `themes/` directory of your Home Assistant configuration.
+2. Make sure themes are loaded in `configuration.yaml`:
 
    ```yaml
    frontend:
      themes: !include_dir_merge_named themes
    ```
 
-3. Rechargez les thèmes depuis **Outils de développement → YAML → Recharger les thèmes**, ou redémarrez Home Assistant.
-4. Choisissez **Martinet Light** dans votre profil utilisateur.
+3. Reload themes from **Developer Tools → YAML → Reload themes**, or restart Home Assistant.
+4. Select **Martinet Light** in your user profile.
 
-## Personnalisation
+## Customization
 
-Modifiez les valeurs de couleur dans `martinet_light.yaml`, puis rechargez les thèmes. Les variables `martinet-*` peuvent aussi être utilisées par les cartes personnalisées qui les prennent en charge.
+Edit the color values in `martinet_light.yaml`, then reload themes. Custom cards that support them can also use the `martinet-*` variables.
 
-## Licence
+## License
 
-Aucune licence de réutilisation n’est encore définie pour ce dépôt.
+No reuse license has been specified for this repository yet.
